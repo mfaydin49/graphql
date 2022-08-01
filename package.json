@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./day1/index",
-    "dev": "nodemon ./day1/index",
+    "start": "node ./day2/index",
+    "dev": "nodemon ./day2/index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -15,6 +15,9 @@
     "apollo-server": "^3.10.0",
     "apollo-server-core": "^3.10.0",
     "graphql": "^16.5.0",
+    "graphql-redis-subscriptions": "^2.5.0",
+    "graphql-yoga": "^2.13.5",
+    "ioredis": "^5.2.2",
     "nanoid": "^3.3.4"
   },
   "devDependencies": {

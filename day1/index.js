@@ -2,7 +2,7 @@ const { ApolloServer, gql } = require("apollo-server");
 const {
   ApolloServerPluginLandingPageGraphQLPlayground,
 } = require("apollo-server-core");
-let { users, posts, comments } = require("./data");
+let { users, posts, comments } = require("../data");
 const { nanoid } = require("nanoid");
 
 const typeDefs = gql`
